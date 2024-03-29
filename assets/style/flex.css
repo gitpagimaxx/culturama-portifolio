@@ -6,6 +6,12 @@
     column-gap: 33px;
 }
 
+@media (max-width: 360px) {
+    .menu {
+        column-gap: 0;
+    }
+}
+
 @media (max-width: 720px) {
     .menu {
         column-gap: 75px;
